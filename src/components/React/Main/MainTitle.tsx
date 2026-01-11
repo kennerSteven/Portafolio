@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
 import { useTransition, animated } from "@react-spring/web";
 
-import styles from "./MainTitle.module.css";
-import Button from "../../components/Button/Button";
+import styles from "../Main/mainTitle.module.css"
+import Button from "../../Button/Button";
 
-import { CV } from "../../components/icons/Cv";
-import { Projects } from "../../components/icons/Projects";
-import { Github } from "../../components/icons/GitHub";
-import { Gmail } from "../../components/icons/Gmail";
+import { CV } from "../../../components/icons/Cv";
+import { Projects } from "../../../components/icons/Projects";
+import { Github } from "../../../components/icons/GitHub";
+import { Gmail } from "../../../components/icons/Gmail";
 
 export default function App() {
   const ref = useRef<ReturnType<typeof setTimeout>[]>([]);

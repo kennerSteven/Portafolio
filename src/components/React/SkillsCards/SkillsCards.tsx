@@ -1,5 +1,5 @@
-import CardSkill from "../../components/Card/CardSkills";
-import { ItemSkills } from "../../data/ItemSkills";
+import CardSkill from "../../../components/Card/CardSkills";
+import { ItemSkills } from "../../../data/ItemSkills";
 
 export default function SkillsCards() {
   return (
