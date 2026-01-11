@@ -1,0 +1,74 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
+li {
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: #4988C4;
+  transition: color 0.2s ease-in;
+}
+
+a:hover {
+  border-bottom: 2px solid #4988C4;
+  transform: scale(1.04);
+  color: #1C4D8D;
+}
+
+.mainContainer {
+background: -webkit-linear-gradient(184deg, #afd9f7,#f0f2ff);background: linear-gradient(184deg, #afd9f7,#f0f2ff);
+}
+
+.iconStyle {
+  color: white;
+  background: #4988C4;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 14px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.iconStyle:hover {
+  background: #1C4D8D;
+  transform: scale(1.1);
+}
+
+.iconCard {
+  font-size: 30px;
+}
+
+.pepe {
+  margin: auto;
+
+  padding: 10px;
+background-color: rgba(255, 255, 255, 0.217);
+border: 1px solid rgb(231, 231, 231);
+}
+
+.firstTitle{
+
+}
+
+.secondTitle{
+color: #4988C4;
+}
+
+
+.secontWord {
+    color: #1C4D8D;
+}
+
+.finalWords{
+font-style: italic;
+background-color: #1C4D8D;
+padding: 5px;
+border-radius: 10px;
+}

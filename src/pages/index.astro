@@ -1,0 +1,19 @@
+---
+import Navbar from "../layouts/Navbar/Navbar.astro";
+import MainTitle from "../pages/Main/MainTitle";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../Styles/global.css";
+import AboutMe from "../pages/Section/AboutMe.astro";
+
+import Skills from "./Skills/Skills.astro";
+---
+
+<main class="mainContainer">
+  <Navbar />
+  <MainTitle client:load />
+  <AboutMe />
+ 
+<Skills/>
+  
+ 
+</main>

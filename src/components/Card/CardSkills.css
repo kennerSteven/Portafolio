@@ -1,0 +1,21 @@
+.cardContent {
+    color: rgb(56, 56, 56);
+    background-color: rgba(255, 255, 255, 0.567);
+    border-radius: 20px;
+    box-shadow: 3px 4px 5px rgb(232, 232, 232);
+    cursor: pointer;
+transition: all;
+
+}
+
+.cardContent:hover {
+    background: -webkit-linear-gradient(150deg, #afd9f7, #f0f2ff);
+    background: linear-gradient(150deg, #afd9f7, #f0f2ff);
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.titleIcon {
+    font-size: 16px;
+    font-weight: 600;
+}

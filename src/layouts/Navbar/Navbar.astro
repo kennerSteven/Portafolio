@@ -1,0 +1,21 @@
+---
+import { navItems } from "./NavbarItems";
+import "../Navbar/Navbar.css";
+---
+
+<nav class="d-flex justify-content-between px-5 pt-3 align-item-center">
+  <div>
+    <h5 class="titleName">Kenner Steven</h5>
+  </div>
+  <div>
+    <ul class="d-flex gap-4">
+      {
+        navItems.map((item) => (
+          <li>
+            <a href={item.goTo}>{item.label}</a>{" "}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>

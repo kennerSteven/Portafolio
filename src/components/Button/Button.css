@@ -1,0 +1,32 @@
+.btnBasicStyle {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+.outlineButton {
+    background-color: transparent;
+    border: 2px solid #4988C4;
+    color: #4988C4;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.outlineButton:hover {
+    background-color: #4988C4;
+    color: white;
+    transform: scale(1.05);
+}
+
+.button {
+    background-color: #4988C4;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #356fa1;
+    transform: scale(1.05);
+}
