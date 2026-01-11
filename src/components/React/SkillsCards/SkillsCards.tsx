@@ -8,7 +8,7 @@ export default function SkillsCards() {
         {ItemSkills.map((skill, k) => (
           <div
             key={k}
-            className="col-lg-3 col-md-3 col-sm-4 col-5 d-flex justify-content-center m-1"
+            className="col-lg-2 col-md-3 col-sm-4 col-5 d-flex  m-1"
           >
             <CardSkill
               description={skill.description}
