@@ -6,7 +6,7 @@ interface props {
 export const navItems: props[] = [
   { goTo: "/", label: "Home" },
   { goTo: "/", label: "About" },
-  { goTo: "/", label: "Skills" },
+
   { goTo: "/", label: "Projects" },
   { goTo: "/", label: "Contact" },
 ];

@@ -1,5 +1,5 @@
 .main {
-  min-width: 100px;
+  min-width: 20px;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -12,13 +12,21 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 4em;
+  font-size: 2em;
+  /* Móvil por defecto */
   font-weight: 800;
   text-transform: uppercase;
   will-change: transform, opacity, height;
   white-space: nowrap;
   cursor: pointer;
   line-height: 80px;
+}
+
+/* 💻 Pantallas grandes */
+@media (min-width: 992px) {
+  .transitionsItem {
+    font-size: 4em;
+  }
 }
 
 .container {
@@ -28,7 +36,7 @@
 
 
 
-margin: 200px 0;
+  margin: 200px 0;
 }
 
 

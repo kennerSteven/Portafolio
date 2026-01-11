@@ -4,13 +4,14 @@
     border-radius: 20px;
     box-shadow: 3px 4px 5px rgb(232, 232, 232);
     cursor: pointer;
-transition: all;
+    transition: all 0.2s ease-in;
+font-size: 14px;
+width: 200px;
 
 }
 
 .cardContent:hover {
-    background: -webkit-linear-gradient(150deg, #afd9f7, #f0f2ff);
-    background: linear-gradient(150deg, #afd9f7, #f0f2ff);
+    box-shadow: 2px 4px 4px rgb(230, 230, 230);
     transform: scale(1.02);
     transition: all 0.3s ease-in-out;
 }

@@ -4,14 +4,24 @@ import MainTitle from "../components/React/Main/MainTitle";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/global.css";
 import AboutMe from "../pages/AboutMe.astro";
-
 import Skills from "./Skills.astro";
 ---
 
-<main class="mainContainer">
-  <Navbar />
-  <MainTitle client:load />
-  <AboutMe />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-  <Skills />
-</main>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kenner Portfolio</title>
+  </head>
+
+  <body>
+    <main class="mainContainer container-fluid p-0">
+      <Navbar />
+      <MainTitle client:load />
+      <AboutMe />
+      <Skills />
+    </main>
+  </body>
+</html>
