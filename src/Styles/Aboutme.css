@@ -1,3 +1,10 @@
-.containerAboutme{
- margin: 200px auto;
+.containerAboutme {
+    margin: 90px auto;
+}
+
+
+@media (min-width: 992px) {
+    .containerAboutme {
+        margin: 100px auto;
+    }
 }
