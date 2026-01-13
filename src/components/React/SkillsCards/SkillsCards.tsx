@@ -1,6 +1,7 @@
 import CardSkill from "../../../components/Card/CardSkills";
 import { ItemSkills } from "../../../data/ItemSkills";
 
+
 export default function SkillsCards() {
   return (
     <div className="container my-5">
@@ -8,7 +9,7 @@ export default function SkillsCards() {
         {ItemSkills.map((skill, k) => (
           <div
             key={k}
-            className="col-lg-2 col-md-2 col-sm-4 col-6 d-flex mb-4 "
+            className="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-4 "
           >
             <CardSkill
               description={skill.description}

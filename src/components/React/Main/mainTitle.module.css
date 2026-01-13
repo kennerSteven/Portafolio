@@ -13,7 +13,7 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 2em;
-  /* Móvil por defecto */
+
   font-weight: 800;
   text-transform: uppercase;
   will-change: transform, opacity, height;
@@ -22,7 +22,7 @@
   line-height: 80px;
 }
 
-/* 💻 Pantallas grandes */
+
 @media (min-width: 992px) {
   .transitionsItem {
     font-size: 4em;
@@ -36,7 +36,7 @@
 
 
 
-  margin: 200px 0;
+
 }
 
 
@@ -56,4 +56,9 @@ body {
 *:after,
 *:before {
   box-sizing: border-box;
+}
+
+.containerAboutme{
+  margin: 400px 0;
+  background-color: red;
 }

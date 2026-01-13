@@ -1,30 +1,32 @@
 ---
-
+import AboutItemsCards from "../components/React/SkillsCards/AboutItemCards";
+import "../Styles/Aboutme.css"
 ---
 
-<section class="container my-5 py-5">
+<section class="container  py-5 containerAboutme">
   <div class="row justify-content-center">
-    <div class="col-12 col-md-10 col-lg-6 containerAboutme">
-
-      <span class="d-flex  justify-content-center gap-2 py-3  ">
-        <h1 class="FirstWord fw-bold ">About</h1>
+    <div class="col-12 col-md-10 col-lg-6 ">
+      <span class="d-flex justify-content-center gap-2 py-3">
+        <h1 class="FirstWord fw-bold">About</h1>
         <h1 class="secontWord fw-bold">Me</h1>
       </span>
 
-      <p class="text-muted text-center ">
-        I am a curious, creative person with a constant desire to improve. I enjoy
-        learning new things, taking on challenges, and always looking for more
-        efficient ways to get things done. I adapt quickly to change, work well in a
-        team, and when something doesn't work, I don't stand still. I look for
-        solutions.
+      <p class="text-muted text-center">
+        I am a curious, creative person with a constant desire to improve. I
+        enjoy learning new things, taking on challenges, and always looking for
+        more efficient ways to get things done. I adapt quickly to change, work
+        well in a team, and when something doesn't work, I don't stand still. I
+        look for solutions.
         <br /><br />
         I value responsibility, clear communication, and respect. I like to contribute
-        ideas, listen to others, and help maintain a positive environment. When I commit
-        to something, I take it seriously, without losing my sense of humor.
+        ideas, listen to others, and help maintain a positive environment. When I
+        commit to something, I take it seriously, without losing my sense of humor.
         <br /><br />
-        <strong>I'm someone who solves problems, not someone who gives up.</strong>
+        <strong
+          >I'm someone who solves problems, not someone who gives up.</strong
+        >
       </p>
-
     </div>
   </div>
+  <AboutItemsCards client:load />
 </section>
